@@ -1,7 +1,42 @@
-  *{
-    box-sizing: border-box;
-    margin:0 ;
-    padding:0;
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
 
+  .box {
+      background-color: lightblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
 
-}
+  }
+
+  .box p {
+      background-color: lightcoral;
+      border: 1px solid black;
+      padding: 10px;
+      margin: 10px;
+      width: 80px;
+      height: 50px;
+
+  }
+
+  /*responsive design for mobile devices *
+
+  @media screen(max-width: 768px) {
+      .box {
+          background: lightgray;
+
+      }
+  }
+
+  @media screen(max-width: 520px) {
+      .box {
+          background: rgb(169, 37, 37);
+
+      }
+  }*/
+
